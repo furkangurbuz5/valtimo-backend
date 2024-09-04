@@ -1,0 +1,13 @@
+{
+    "searchFields": [
+        {
+            "key": "voornaam",
+            "path": "doc:aanvrager.contactgegevens.voornaam",
+            "dataType": "text",
+            "fieldType": "single",
+            "matchType": "exact",
+            "dropdownDataProvider": null,
+            "title": "Voornaam"
+        }
+    ]
+}

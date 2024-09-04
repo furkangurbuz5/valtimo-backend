@@ -1,0 +1,45 @@
+{
+    "display": "form",
+    "components": [
+      {
+        "label": "Aanvrager woonplaats",
+        "applyMaskOn": "change",
+        "disabled": true,
+        "tableView": true,
+        "validateWhenHidden": false,
+        "key": "aanvrager.adres.woonplaats",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Is de woonplaats van de aanvrager in het buitenland?",
+        "optionsLabelPosition": "right",
+        "inline": true,
+        "tableView": false,
+        "values": [
+          {
+            "label": "Ja",
+            "value": true,
+            "shortcut": ""
+          },
+          {
+            "label": "Nee",
+            "value": false,
+            "shortcut": ""
+          }
+        ],
+        "validateWhenHidden": false,
+        "key": "pv.isWoonplaatsInBuitenland",
+        "type": "radio",
+        "input": true
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
